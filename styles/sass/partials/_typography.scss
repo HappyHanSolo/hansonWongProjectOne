@@ -1,26 +1,22 @@
-/* @font-face {
-    font-family: 'Roboto';
-    src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-    font-weight: normal;
-}
+/*
 @font-face {
-    font-family: 'Roboto';
-    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-    font-weight: bold;
+    font-family: "Roboto";
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+    font-weight: 400;
 }
 
 @font-face {
-    font-family: Lora;
+    font-family: 'Lora', serif ;
     src: url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
     font-weight: bold;
-} 
-
+} */
 
 html {
     font-size: 125%;
 }
 
 body {
+    font-family: $primaryFont;
     font-size: 1rem;
     color: $primaryFontColor;
 }
@@ -28,7 +24,6 @@ body {
 h1 {
     font-family: $mainHeaderFont;
     font-size: 4rem;
-    color: $primaryFontColor;
+    
 }
 
-*/

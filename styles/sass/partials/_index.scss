@@ -1,6 +1,10 @@
 header {
     background-color: rgb(246, 168, 35);
-    .wrapper{
         display: flex;
-    }
+        flex-direction: row;
+        justify-content: center;
+        .whoSophie{
+            display: flex;
+            flex-direction: column;
+        }
 }

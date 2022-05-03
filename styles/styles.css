@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Roboto:wght@400;700&display=swap");
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -221,13 +222,28 @@ template {
   overflow: hidden;
 }
 
+/*Fonts*/
 header {
   background-color: rgb(246, 168, 35);
-}
-header .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+header .whoSophie {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .navWrapper {
@@ -263,41 +279,33 @@ header .wrapper {
   padding: 10px;
 }
 
-/* @font-face {
-    font-family: 'Roboto';
-    src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-    font-weight: normal;
-}
+/*
 @font-face {
-    font-family: 'Roboto';
-    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-    font-weight: bold;
+    font-family: "Roboto";
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+    font-weight: 400;
 }
 
 @font-face {
-    font-family: Lora;
+    font-family: 'Lora', serif ;
     src: url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
     font-weight: bold;
-} 
-
-
+} */
 html {
-    font-size: 125%;
+  font-size: 125%;
 }
 
 body {
-    font-size: 1rem;
-    color: $primaryFontColor;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  color: rgb(44, 44, 44);
 }
 
 h1 {
-    font-family: $mainHeaderFont;
-    font-size: 4rem;
-    color: $primaryFontColor;
+  font-family: "Lora", serif;
+  font-size: 4rem;
 }
 
-*/
-/*Fonts*/
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
