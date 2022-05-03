@@ -232,11 +232,24 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
-header .whoSophie {
+header .headerTextWrapper img {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 110px;
+  right: 50px;
+  width: 150px;
+}
+header h1 {
+  text-transform: uppercase;
+}
+
+.whoSophie {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -277,20 +290,8 @@ header .whoSophie {
 .navWrapper ul li {
   margin: 15px 15px;
   padding: 10px;
+  text-transform: uppercase;
 }
-
-/*
-@font-face {
-    font-family: "Roboto";
-    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: 'Lora', serif ;
-    src: url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
-    font-weight: bold;
-} */
 html {
   font-size: 125%;
 }
