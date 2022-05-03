@@ -220,3 +220,36 @@ template {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+@font-face {
+  font-family: "Roboto Regular";
+  src: url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Roboto ";
+  src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+  font-weight: bold;
+}
+@font-face {
+  font-family: Lora;
+  src: url("https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap");
+  font-weight: bold;
+}
+html {
+  font-size: 125%;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #f0efed;
+  background-color: #4f4f4f;
+}
+footer p {
+  margin: 5px;
+}
