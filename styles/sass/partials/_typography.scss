@@ -13,15 +13,14 @@
     font-family: Lora;
     src: url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
     font-weight: bold;
-} */
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Roboto:wght@400;700&display=swap');
+} 
+
 
 html {
     font-size: 125%;
 }
 
 body {
-    font-family: $bodyFont;
     font-size: 1rem;
     color: $primaryFontColor;
 }
@@ -31,3 +30,5 @@ h1 {
     font-size: 4rem;
     color: $primaryFontColor;
 }
+
+*/

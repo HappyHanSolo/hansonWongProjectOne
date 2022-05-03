@@ -221,25 +221,83 @@ template {
   overflow: hidden;
 }
 
-@font-face {
-  font-family: "Roboto Regular";
-  src: url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-  font-weight: normal;
+header {
+  background-color: rgb(246, 168, 35);
 }
-@font-face {
-  font-family: "Roboto ";
-  src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
-  font-weight: bold;
-}
-@font-face {
-  font-family: Lora;
-  src: url("https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap");
-  font-weight: bold;
-}
-html {
-  font-size: 125%;
+header .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
+.navWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: rgb(246, 168, 35);
+}
+.navWrapper ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+}
+.navWrapper ul li {
+  margin: 15px 15px;
+  padding: 10px;
+}
+
+/* @font-face {
+    font-family: 'Roboto';
+    src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Lora;
+    src: url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+    font-weight: bold;
+} 
+
+
+html {
+    font-size: 125%;
+}
+
+body {
+    font-size: 1rem;
+    color: $primaryFontColor;
+}
+
+h1 {
+    font-family: $mainHeaderFont;
+    font-size: 4rem;
+    color: $primaryFontColor;
+}
+
+*/
+/*Fonts*/
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -247,8 +305,8 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: #f0efed;
-  background-color: #4f4f4f;
+  color: rgb(240, 239, 237);
+  background-color: rgb 79, 79, 79;
 }
 footer p {
   margin: 5px;
