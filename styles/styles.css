@@ -223,42 +223,6 @@ template {
 }
 
 /*Fonts*/
-header {
-  background-color: rgb(246, 168, 35);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-header .headerTextWrapper img {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  top: 110px;
-  right: 50px;
-  width: 150px;
-}
-header h1 {
-  text-transform: uppercase;
-}
-
-.whoSophie {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
 .navWrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -290,21 +254,133 @@ header h1 {
 .navWrapper ul li {
   margin: 15px 15px;
   padding: 10px;
-  text-transform: uppercase;
 }
+
+button {
+  background-color: rgb(5, 175, 193);
+  width: 200px;
+  padding: 10px;
+  border: none;
+}
+
+navBar ul:first-child {
+  -webkit-text-decoration: white;
+          text-decoration: white;
+}
+
+header {
+  background-color: rgb(246, 168, 35);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+  height: 500px;
+  position: relative;
+  padding-top: 30px;
+}
+header .headerTextWrapper img {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 80px;
+  left: 125px;
+}
+header h1 {
+  text-transform: uppercase;
+  position: absolute;
+  top: 50px;
+  left: 200px;
+}
+header .headerImageWrapper img {
+  width: 400px;
+  position: absolute;
+  left: 850px;
+  -webkit-box-shadow: 15px 15px white;
+          box-shadow: 15px 15px white;
+}
+
+.mainPageContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.mainPageContent .whoSophie {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 1080px;
+  margin: 50px auto;
+}
+
 html {
   font-size: 125%;
 }
 
-body {
+.navWrapper li {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+header h1 {
+  font-family: "Lora", serif;
+  font-size: 6rem;
+  color: rgb(44, 44, 44);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.1rem;
+  color: rgb(44, 44, 44);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  color: rgb(44, 44, 44);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  color: rgb(44, 44, 44);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+p {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   color: rgb(44, 44, 44);
 }
 
-h1 {
-  font-family: "Lora", serif;
-  font-size: 4rem;
+button {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 footer {
