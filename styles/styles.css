@@ -258,7 +258,7 @@ template {
 
 button {
   background-color: rgb(5, 175, 193);
-  width: 200px;
+  width: 170px;
   padding: 10px;
   border: none;
 }
@@ -326,6 +326,14 @@ header .headerImageWrapper img {
           flex-direction: column;
   width: 1080px;
   margin: 50px auto;
+  background-color: rgb(240, 239, 237);
+}
+.mainPageContent .whoSophie h2 {
+  margin: 15px 0 0 0;
+}
+.mainPageContent .whoSophie p {
+  margin: 30px 0 30px;
+  width: 900px;
 }
 
 html {
