@@ -39,18 +39,44 @@ header {
     .mainPageContent{
         display: flex;
         flex-direction: column;
-        .whoSophie {
-            display: flex;
-            flex-direction: column;
-            width: 1080px;
-            margin: 50px auto;
+        .whoSophieContainer {
             background-color: rgb(240 239 237);
-            h2 {
-                margin: 15px 0 0 0;
-            }
-            p {
-                margin: 30px 0 30px;
-                width: 900px;
+            padding: 25px;
+            .whoSophie {
+                display: flex;
+                flex-direction: column;
+                width: 1080px;
+                margin: 50px auto;
+                h2 {
+                    margin: 15px 0 0 0;
+                }
+                p {
+                    margin: 30px 0 30px;
+                    width: 900px;
+                   }
             }
         }
-    }
+        .sFavContent {
+            display: flex;
+            flex-direction: row;
+            .sFavImgWrapper {
+                width: 50vw;
+                position: relative;
+                height: 305px;
+                margin-top: -25px;
+                background-color: rgb(168 39 6);
+                img {
+                    width: 650px;
+                    height: 310px;
+                    position: absolute;
+                    left: 55px;
+                    bottom: 15px;
+                    object-fit: cover;
+                }
+            }
+            .sFavTextWrapper {
+                width: 500px;
+                margin: 0 auto;
+            }
+        }
+     } 
