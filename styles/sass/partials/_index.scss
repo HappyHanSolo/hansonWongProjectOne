@@ -41,7 +41,7 @@ header {
         flex-direction: column;
         .whoSophieContainer {
             background-color: rgb(240 239 237);
-            padding: 25px;
+            padding: 25px 25px 70px;
             .whoSophie {
                 display: flex;
                 flex-direction: column;
@@ -59,6 +59,7 @@ header {
         .sFavContent {
             display: flex;
             flex-direction: row;
+            padding-bottom: 75px;
             .sFavImgWrapper {
                 width: 50vw;
                 position: relative;
@@ -66,17 +67,130 @@ header {
                 margin-top: -25px;
                 background-color: rgb(168 39 6);
                 img {
-                    width: 650px;
+                    width: 525px;
                     height: 310px;
                     position: absolute;
-                    left: 55px;
-                    bottom: 15px;
+                    left: 175px;
+                    bottom: 20px;
                     object-fit: cover;
                 }
             }
             .sFavTextWrapper {
                 width: 500px;
                 margin: 0 auto;
+            }
+        }
+        .sTravelled {
+            display: flex;
+            flex-direction: row;
+            .sTravTextWrapper {
+                width: 500px;
+                justify-content: right;
+                margin: 0 auto;
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                height: 225px;
+                h3{
+                    margin: 0;
+                    text-align: end;
+                }
+                p {
+                    text-align: end;
+                }
+                button {
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                }
+            }
+            .sTravImgWrapper {
+                width: 50vw;
+                position: relative;
+                height: 305px;
+                margin-top: 20px;
+                background-color: rgb(246 168 35);
+                img {
+                    width: 525px;
+                    height: 310px;
+                    position: absolute;
+                    left: -15px;
+                    bottom: 15px;
+                    object-fit: cover;
+                }
+            }
+        }
+        .miniMenu{
+            background-color: rgb(240 239 237);
+            .mMenuWrapper {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                width: 90vw;
+                margin: 0 auto;
+                .mMenuPhoto {
+                    position: relative;
+                    flex-basis: 50%;
+                    padding-left: 150px;
+                    margin-top: 100px;
+                    h4 {
+                        padding-left: 50px;
+                        margin-bottom: 0px;
+                    }
+                    p {
+                        padding-right: 100px;
+                        padding-left: 50px;
+                    }
+                }
+                .mMenuAbout {
+                    position: relative;
+                    flex-basis: 50%;
+                    padding-right: 150px;
+                    margin-top: 100px;
+                    h4 {
+                        padding-left: 50px;
+                        margin-bottom: 0px;
+                    }
+                    p {
+                        padding-right: 100px;
+                        padding-left: 50px;
+                    }
+                }
+                .mMenuBlog{
+                    position: relative;
+                    flex-basis: 50%;
+                    padding-left: 150px;
+                    margin-bottom: 50px;
+                    h4 {
+                        padding-left: 50px;
+                        margin-bottom: 0px;
+                    }
+                    p {
+                        padding-right: 100px;
+                        padding-left: 50px;
+                    }
+                }
+                .mMenuContact{
+                    position: relative;
+                    flex-basis: 50%;
+                    padding-right: 150px;
+                    margin-bottom: 50px;
+                    h4 {
+                        padding-left: 50px;
+                        margin-bottom: 0px;
+                    }
+                    p {
+                        padding-right: 100px;
+                        padding-left: 50px;
+                    }
+                }
+                i {
+                    background-color: rgb(246, 168, 35);
+                    padding: 10px;
+                    border-radius: 50%;
+                    position: absolute;
+                    top: 25px;
+                }
             }
         }
      } 

@@ -318,7 +318,7 @@ header .headerImageWrapper img {
 }
 .mainPageContent .whoSophieContainer {
   background-color: rgb(240, 239, 237);
-  padding: 25px;
+  padding: 25px 25px 70px;
 }
 .mainPageContent .whoSophieContainer .whoSophie {
   display: -webkit-box;
@@ -346,6 +346,7 @@ header .headerImageWrapper img {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  padding-bottom: 75px;
 }
 .mainPageContent .sFavContent .sFavImgWrapper {
   width: 50vw;
@@ -355,17 +356,152 @@ header .headerImageWrapper img {
   background-color: rgb(168, 39, 6);
 }
 .mainPageContent .sFavContent .sFavImgWrapper img {
-  width: 650px;
+  width: 525px;
   height: 310px;
   position: absolute;
-  left: 55px;
-  bottom: 15px;
+  left: 175px;
+  bottom: 20px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 .mainPageContent .sFavContent .sFavTextWrapper {
   width: 500px;
   margin: 0 auto;
+}
+.mainPageContent .sTravelled {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.mainPageContent .sTravelled .sTravTextWrapper {
+  width: 500px;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  height: 225px;
+}
+.mainPageContent .sTravelled .sTravTextWrapper h3 {
+  margin: 0;
+  text-align: end;
+}
+.mainPageContent .sTravelled .sTravTextWrapper p {
+  text-align: end;
+}
+.mainPageContent .sTravelled .sTravTextWrapper button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.mainPageContent .sTravelled .sTravImgWrapper {
+  width: 50vw;
+  position: relative;
+  height: 305px;
+  margin-top: 20px;
+  background-color: rgb(246, 168, 35);
+}
+.mainPageContent .sTravelled .sTravImgWrapper img {
+  width: 525px;
+  height: 310px;
+  position: absolute;
+  left: -15px;
+  bottom: 15px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.mainPageContent .miniMenu {
+  background-color: rgb(240, 239, 237);
+}
+.mainPageContent .miniMenu .mMenuWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 90vw;
+  margin: 0 auto;
+}
+.mainPageContent .miniMenu .mMenuWrapper .mMenuPhoto {
+  position: relative;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding-left: 150px;
+  margin-top: 100px;
+}
+.mainPageContent .miniMenu .mMenuWrapper .mMenuPhoto h4 {
+  padding-left: 50px;
+  margin-bottom: 0px;
+}
+.mainPageContent .miniMenu .mMenuWrapper .mMenuPhoto p {
+  padding-right: 100px;
+  padding-left: 50px;
+}
+.mainPageContent .miniMenu .mMenuWrapper .mMenuAbout {
+  position: relative;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding-right: 150px;
+  margin-top: 100px;
+}
+.mainPageContent .miniMenu .mMenuWrapper .mMenuAbout h4 {
+  padding-left: 50px;
+  margin-bottom: 0px;
+}
+.mainPageContent .miniMenu .mMenuWrapper .mMenuAbout p {
+  padding-right: 100px;
+  padding-left: 50px;
+}
+.mainPageContent .miniMenu .mMenuWrapper .mMenuBlog {
+  position: relative;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding-left: 150px;
+  margin-bottom: 50px;
+}
+.mainPageContent .miniMenu .mMenuWrapper .mMenuBlog h4 {
+  padding-left: 50px;
+  margin-bottom: 0px;
+}
+.mainPageContent .miniMenu .mMenuWrapper .mMenuBlog p {
+  padding-right: 100px;
+  padding-left: 50px;
+}
+.mainPageContent .miniMenu .mMenuWrapper .mMenuContact {
+  position: relative;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding-right: 150px;
+  margin-bottom: 50px;
+}
+.mainPageContent .miniMenu .mMenuWrapper .mMenuContact h4 {
+  padding-left: 50px;
+  margin-bottom: 0px;
+}
+.mainPageContent .miniMenu .mMenuWrapper .mMenuContact p {
+  padding-right: 100px;
+  padding-left: 50px;
+}
+.mainPageContent .miniMenu .mMenuWrapper i {
+  background-color: rgb(246, 168, 35);
+  padding: 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: 25px;
 }
 
 html {
@@ -430,9 +566,9 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: rgb(240, 239, 237);
-  background-color: rgb 79, 79, 79;
+  background-color: rgb(79, 79, 79);
 }
 footer p {
+  color: rgb(240, 239, 237);
   margin: 5px;
 }
