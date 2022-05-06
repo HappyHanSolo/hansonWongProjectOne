@@ -258,7 +258,7 @@ template {
 
 button {
   background-color: rgb(5, 175, 193);
-  width: 170px;
+  width: 185px;
   padding: 10px;
   border: none;
 }
@@ -290,7 +290,7 @@ header .headerTextWrapper img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  top: 80px;
+  top: 60px;
   left: 125px;
 }
 header h1 {
@@ -336,7 +336,7 @@ header .headerImageWrapper img {
 }
 .mainPageContent .whoSophieContainer .whoSophie p {
   margin: 30px 0 30px;
-  width: 900px;
+  width: 1000px;
 }
 .mainPageContent .sFavContent {
   display: -webkit-box;
@@ -346,27 +346,27 @@ header .headerImageWrapper img {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  padding-bottom: 75px;
+  padding-bottom: 30px;
 }
 .mainPageContent .sFavContent .sFavImgWrapper {
   width: 50vw;
   position: relative;
-  height: 305px;
+  height: 410px;
   margin-top: -25px;
   background-color: rgb(168, 39, 6);
 }
 .mainPageContent .sFavContent .sFavImgWrapper img {
-  width: 525px;
-  height: 310px;
+  width: 575px;
+  height: 400px;
   position: absolute;
-  left: 175px;
-  bottom: 20px;
+  left: 124px;
+  bottom: 30px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 .mainPageContent .sFavContent .sFavTextWrapper {
   width: 500px;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 .mainPageContent .sTravelled {
   display: -webkit-box;
@@ -376,6 +376,7 @@ header .headerImageWrapper img {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  padding-bottom: 15px;
 }
 .mainPageContent .sTravelled .sTravTextWrapper {
   width: 500px;
@@ -391,7 +392,7 @@ header .headerImageWrapper img {
       -ms-flex-direction: column;
           flex-direction: column;
   position: relative;
-  height: 225px;
+  height: 300px;
 }
 .mainPageContent .sTravelled .sTravTextWrapper h3 {
   margin: 0;
@@ -402,27 +403,28 @@ header .headerImageWrapper img {
 }
 .mainPageContent .sTravelled .sTravTextWrapper button {
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
   right: 0;
 }
 .mainPageContent .sTravelled .sTravImgWrapper {
   width: 50vw;
   position: relative;
-  height: 305px;
+  height: 375px;
   margin-top: 20px;
   background-color: rgb(246, 168, 35);
 }
 .mainPageContent .sTravelled .sTravImgWrapper img {
-  width: 525px;
-  height: 310px;
+  width: 600px;
+  height: 450px;
   position: absolute;
   left: -15px;
-  bottom: 15px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  bottom: -20px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .mainPageContent .miniMenu {
   background-color: rgb(240, 239, 237);
+  margin-top: -60px;
 }
 .mainPageContent .miniMenu .mMenuWrapper {
   display: -webkit-box;
@@ -440,7 +442,7 @@ header .headerImageWrapper img {
   position: relative;
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
-  padding-left: 150px;
+  padding: 25px;
   margin-top: 100px;
 }
 .mainPageContent .miniMenu .mMenuWrapper .mMenuPhoto h4 {
@@ -448,14 +450,13 @@ header .headerImageWrapper img {
   margin-bottom: 0px;
 }
 .mainPageContent .miniMenu .mMenuWrapper .mMenuPhoto p {
-  padding-right: 100px;
   padding-left: 50px;
 }
 .mainPageContent .miniMenu .mMenuWrapper .mMenuAbout {
   position: relative;
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
-  padding-right: 150px;
+  padding: 25px;
   margin-top: 100px;
 }
 .mainPageContent .miniMenu .mMenuWrapper .mMenuAbout h4 {
@@ -463,14 +464,13 @@ header .headerImageWrapper img {
   margin-bottom: 0px;
 }
 .mainPageContent .miniMenu .mMenuWrapper .mMenuAbout p {
-  padding-right: 100px;
   padding-left: 50px;
 }
 .mainPageContent .miniMenu .mMenuWrapper .mMenuBlog {
   position: relative;
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
-  padding-left: 150px;
+  padding: 25px;
   margin-bottom: 50px;
 }
 .mainPageContent .miniMenu .mMenuWrapper .mMenuBlog h4 {
@@ -478,14 +478,13 @@ header .headerImageWrapper img {
   margin-bottom: 0px;
 }
 .mainPageContent .miniMenu .mMenuWrapper .mMenuBlog p {
-  padding-right: 100px;
   padding-left: 50px;
 }
 .mainPageContent .miniMenu .mMenuWrapper .mMenuContact {
   position: relative;
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
-  padding-right: 150px;
+  padding: 25px;
   margin-bottom: 50px;
 }
 .mainPageContent .miniMenu .mMenuWrapper .mMenuContact h4 {
@@ -493,7 +492,6 @@ header .headerImageWrapper img {
   margin-bottom: 0px;
 }
 .mainPageContent .miniMenu .mMenuWrapper .mMenuContact p {
-  padding-right: 100px;
   padding-left: 50px;
 }
 .mainPageContent .miniMenu .mMenuWrapper i {
@@ -501,7 +499,60 @@ header .headerImageWrapper img {
   padding: 10px;
   border-radius: 50%;
   position: absolute;
-  top: 25px;
+  top: 50px;
+}
+.mainPageContent .breakerBackgroundImg img {
+  width: 100%;
+  height: 405px;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+.mainPageContent .sJourney {
+  background-color: rgb(240, 239, 237);
+  margin: -10px;
+  padding-top: 90px;
+  padding-bottom: 75px;
+}
+.mainPageContent .sJourney .sJourneyWrapper {
+  width: 90vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0 auto;
+}
+.mainPageContent .sJourney .sJourneyWrapper img {
+  width: 285px;
+  margin: 0 100px;
+  -webkit-box-shadow: 15px 15px rgb(246, 168, 35);
+          box-shadow: 15px 15px rgb(246, 168, 35);
+}
+.mainPageContent .sJourney .sJourneyWrapper h2 {
+  margin: 0;
+}
+.mainPageContent .sJourney .sJourneyWrapper p {
+  margin-right: 50px;
+}
+.mainPageContent .gallery .galleryWrapper ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 80px 60px;
+  padding: 0;
+}
+.mainPageContent .gallery .galleryWrapper ul li {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  margin: 10px;
 }
 
 html {
@@ -512,6 +563,8 @@ html {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
+  line-height: 29px;
+  letter-spacing: 1px;
 }
 
 header h1 {
@@ -520,6 +573,8 @@ header h1 {
   color: rgb(44, 44, 44);
   font-weight: bold;
   text-transform: uppercase;
+  line-height: 92px;
+  letter-spacing: 0px;
 }
 
 h2 {
@@ -528,6 +583,7 @@ h2 {
   color: rgb(44, 44, 44);
   font-weight: bold;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 h3 {
@@ -536,6 +592,7 @@ h3 {
   color: rgb(44, 44, 44);
   font-weight: bold;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 h4 {
@@ -544,12 +601,15 @@ h4 {
   color: rgb(44, 44, 44);
   font-weight: bold;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 p {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   color: rgb(44, 44, 44);
+  line-height: 32px;
+  letter-spacing: 1px;
 }
 
 button {
@@ -557,6 +617,9 @@ button {
   font-size: 1rem;
   font-weight: 400;
   text-transform: uppercase;
+  text-align: center;
+  line-height: 32px;
+  letter-spacing: 1px;
 }
 
 footer {

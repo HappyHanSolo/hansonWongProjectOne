@@ -16,7 +16,7 @@ header {
             img {
                 position: absolute;
                 display: flex;
-                top: 80px;
+                top: 60px;
                 left: 125px;
             }
         }
@@ -52,37 +52,38 @@ header {
                 }
                 p {
                     margin: 30px 0 30px;
-                    width: 900px;
+                    width: 1000px;
                    }
             }
         }
         .sFavContent {
             display: flex;
             flex-direction: row;
-            padding-bottom: 75px;
+            padding-bottom: 30px;
             .sFavImgWrapper {
                 width: 50vw;
                 position: relative;
-                height: 305px;
+                height: 410px;
                 margin-top: -25px;
                 background-color: rgb(168 39 6);
                 img {
-                    width: 525px;
-                    height: 310px;
+                    width: 575px;
+                    height: 400px;
                     position: absolute;
-                    left: 175px;
-                    bottom: 20px;
+                    left: 124px;
+                    bottom: 30px;
                     object-fit: cover;
                 }
             }
             .sFavTextWrapper {
                 width: 500px;
-                margin: 0 auto;
+                margin: 50px auto;
             }
         }
         .sTravelled {
             display: flex;
             flex-direction: row;
+            padding-bottom: 15px;
             .sTravTextWrapper {
                 width: 500px;
                 justify-content: right;
@@ -90,7 +91,7 @@ header {
                 display: flex;
                 flex-direction: column;
                 position: relative;
-                height: 225px;
+                height: 300px;
                 h3{
                     margin: 0;
                     text-align: end;
@@ -100,28 +101,29 @@ header {
                 }
                 button {
                     position: absolute;
-                    bottom: 0;
+                    bottom: 10px;
                     right: 0;
                 }
             }
             .sTravImgWrapper {
                 width: 50vw;
                 position: relative;
-                height: 305px;
+                height: 375px;
                 margin-top: 20px;
                 background-color: rgb(246 168 35);
                 img {
-                    width: 525px;
-                    height: 310px;
+                    width: 600px;
+                    height: 450px;
                     position: absolute;
                     left: -15px;
-                    bottom: 15px;
-                    object-fit: cover;
+                    bottom: -20px;
+                    object-fit: contain;
                 }
             }
         }
         .miniMenu{
             background-color: rgb(240 239 237);
+            margin-top: -60px;
             .mMenuWrapper {
                 display: flex;
                 flex-wrap: wrap;
@@ -131,56 +133,52 @@ header {
                 .mMenuPhoto {
                     position: relative;
                     flex-basis: 50%;
-                    padding-left: 150px;
+                    padding: 25px;
                     margin-top: 100px;
                     h4 {
                         padding-left: 50px;
                         margin-bottom: 0px;
                     }
                     p {
-                        padding-right: 100px;
                         padding-left: 50px;
                     }
                 }
                 .mMenuAbout {
                     position: relative;
                     flex-basis: 50%;
-                    padding-right: 150px;
+                    padding: 25px;
                     margin-top: 100px;
                     h4 {
                         padding-left: 50px;
                         margin-bottom: 0px;
                     }
                     p {
-                        padding-right: 100px;
                         padding-left: 50px;
                     }
                 }
                 .mMenuBlog{
                     position: relative;
                     flex-basis: 50%;
-                    padding-left: 150px;
+                    padding: 25px;
                     margin-bottom: 50px;
                     h4 {
                         padding-left: 50px;
                         margin-bottom: 0px;
                     }
                     p {
-                        padding-right: 100px;
                         padding-left: 50px;
                     }
                 }
                 .mMenuContact{
                     position: relative;
                     flex-basis: 50%;
-                    padding-right: 150px;
+                    padding: 25px;
                     margin-bottom: 50px;
                     h4 {
                         padding-left: 50px;
                         margin-bottom: 0px;
                     }
                     p {
-                        padding-right: 100px;
                         padding-left: 50px;
                     }
                 }
@@ -189,7 +187,51 @@ header {
                     padding: 10px;
                     border-radius: 50%;
                     position: absolute;
-                    top: 25px;
+                    top: 50px;
+                }
+            }
+        }
+        .breakerBackgroundImg {
+            img {
+                width: 100%;
+                height: 405px;
+                object-fit: fill;
+                }
+        }
+        .sJourney{
+            background-color: rgb(240 239 237);
+            margin: -10px;
+            padding-top: 90px;
+            padding-bottom: 75px;
+            .sJourneyWrapper{
+                width: 90vw;
+                display: flex;
+                flex-direction: row;
+                margin: 0 auto;
+                img {
+                    width: 285px;
+                    margin: 0 100px;
+                    box-shadow: 15px 15px rgb(246, 168, 35);
+                }
+                h2 {
+                    margin: 0;
+                }
+                p {
+                    margin-right: 50px;
+                }
+            }
+        }
+        .gallery {
+            .galleryWrapper ul{
+                list-style: none;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                margin: 80px 60px;
+                padding: 0;
+                li {
+                    flex-basis: 30%;
+                    margin: 10px;
                 }
             }
         }
