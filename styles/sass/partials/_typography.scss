@@ -9,9 +9,12 @@ html {
     line-height: 29px;
     letter-spacing: 1px;
 }
+.navWrapper li h1{
+    font-family: $mainHeaderFont;
+}
 header h1 {
     font-family: $mainHeaderFont;
-    font-size: 6rem;
+    font-size: 4rem;
     color: $primaryFontColor;
     font-weight: bold;
     text-transform: uppercase;

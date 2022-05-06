@@ -1,9 +1,12 @@
-navBar {
-    ul:first-child {
-        text-decoration: white;
+.navBar {
+    .navWrapper {
+        .home {
+            color: white;
+        }
+
     }
 }
-header {
+.indexHeader {
     background-color: rgb(246, 168, 35);
         display: flex;
         flex-direction: row;
@@ -23,6 +26,7 @@ header {
         h1{
             text-transform: uppercase;
             position: absolute;
+            font-size: 6rem;
             top: 50px;
             left: 200px;
 

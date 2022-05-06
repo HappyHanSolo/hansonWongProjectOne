@@ -248,12 +248,18 @@ template {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  margin: 0;
+  margin: -30px;
   padding: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .navWrapper ul li {
   margin: 15px 15px;
   padding: 10px;
+}
+.navWrapper ul li a {
+  text-decoration: none;
 }
 
 button {
@@ -263,12 +269,11 @@ button {
   border: none;
 }
 
-navBar ul:first-child {
-  -webkit-text-decoration: white;
-          text-decoration: white;
+.navBar .navWrapper .home {
+  color: white;
 }
 
-header {
+.indexHeader {
   background-color: rgb(246, 168, 35);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -285,7 +290,7 @@ header {
   position: relative;
   padding-top: 30px;
 }
-header .headerTextWrapper img {
+.indexHeader .headerTextWrapper img {
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -293,13 +298,14 @@ header .headerTextWrapper img {
   top: 60px;
   left: 125px;
 }
-header h1 {
+.indexHeader h1 {
   text-transform: uppercase;
   position: absolute;
+  font-size: 6rem;
   top: 50px;
   left: 200px;
 }
-header .headerImageWrapper img {
+.indexHeader .headerImageWrapper img {
   width: 400px;
   position: absolute;
   left: 850px;
@@ -555,6 +561,21 @@ header .headerImageWrapper img {
   margin: 10px;
 }
 
+.contactHeader {
+  height: 400px;
+  background-image: url(../assets/contact-image-1.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+}
+.contactHeader .headerWrapper {
+  width: 80vw;
+  margin: 0 auto;
+}
+.contactHeader h1 {
+  position: absolute;
+  bottom: -90px;
+}
+
 html {
   font-size: 125%;
 }
@@ -567,9 +588,13 @@ html {
   letter-spacing: 1px;
 }
 
+.navWrapper li h1 {
+  font-family: "Lora", serif;
+}
+
 header h1 {
   font-family: "Lora", serif;
-  font-size: 6rem;
+  font-size: 4rem;
   color: rgb(44, 44, 44);
   font-weight: bold;
   text-transform: uppercase;
