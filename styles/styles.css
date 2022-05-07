@@ -576,6 +576,69 @@ button {
   bottom: -90px;
 }
 
+main {
+  background-color: rgb(240, 239, 237);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+main .mainWrapper {
+  width: 80vw;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 60px;
+}
+main .mainWrapper .asideWrapper {
+  padding: 20px 0 20px 30px;
+  background-color: white;
+  margin: 30px 30px 30px 0;
+}
+main .mainWrapper .asideWrapper .socialWrapper ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
+  color: rgb(246, 168, 35);
+  padding: 0;
+  margin: 0;
+}
+main .mainWrapper .asideWrapper .socialWrapper ul i {
+  padding: 10px;
+  font-size: 30px;
+}
+main .mainWrapper .asideWrapper .contactInfoWrapper {
+  width: 350px;
+}
+main .mainWrapper .asideWrapper .contactInfoWrapper .contactEmail {
+  margin: 0;
+}
+main .mainWrapper .asideWrapper .contactInfoWrapper .contactAddress {
+  margin: 10px 0 20px;
+}
+main .formWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 html {
   font-size: 125%;
 }
