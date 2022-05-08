@@ -46,6 +46,7 @@
         .whoSophieContainer {
             background-color: rgb(240 239 237);
             padding: 25px 25px 70px;
+            width: calc(100vw - 50px);
             .whoSophie {
                 display: flex;
                 flex-direction: column;
@@ -205,6 +206,7 @@
         .sJourney{
             background-color: rgb(240 239 237);
             margin: -10px;
+            width: calc(100vw - 20px);
             padding-top: 90px;
             padding-bottom: 75px;
             .sJourneyWrapper{

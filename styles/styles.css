@@ -268,6 +268,7 @@ button {
   width: 185px;
   padding: 10px;
   border: none;
+  font-weight: bold;
 }
 
 .navBar .navWrapper .home {
@@ -326,6 +327,7 @@ button {
 .mainPageContent .whoSophieContainer {
   background-color: rgb(240, 239, 237);
   padding: 25px 25px 70px;
+  width: calc(100vw - 50px);
 }
 .mainPageContent .whoSophieContainer .whoSophie {
   display: -webkit-box;
@@ -517,6 +519,7 @@ button {
 .mainPageContent .sJourney {
   background-color: rgb(240, 239, 237);
   margin: -10px;
+  width: calc(100vw - 20px);
   padding-top: 90px;
   padding-bottom: 75px;
 }
@@ -706,6 +709,7 @@ button {
 }
 .formWrapper button {
   width: 800px;
+  font-weight: bold;
 }
 
 .contactHeader {
@@ -885,7 +889,7 @@ form input, form textarea {
 button {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: bold;
   text-transform: uppercase;
   text-align: center;
   line-height: 32px;
