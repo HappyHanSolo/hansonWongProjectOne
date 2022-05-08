@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Roboto:wght@400;700&display=swap");
 html {
   line-height: 1.15;
@@ -561,6 +562,66 @@ button {
   margin: 10px;
 }
 
+.blogHeader {
+  height: 400px;
+  background-image: url(../assets/blog-image-1.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+}
+.blogHeader .headerWrapper {
+  width: 80vw;
+  margin: 0 auto;
+}
+.blogHeader h1 {
+  position: absolute;
+  bottom: -90px;
+}
+
+.bContentWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 80vw;
+  margin: 100px auto;
+}
+.bContentWrapper .asideWrapper {
+  margin-right: 20px;
+}
+.bContentWrapper .asideWrapper .aboutSophie {
+  background-color: white;
+  padding: 30px 35px;
+}
+.bContentWrapper .asideWrapper .aboutSophie h4 {
+  margin: 20px 0 0 0;
+}
+.bContentWrapper .asideWrapper .aboutSophie p a {
+  color: rgb(40, 94, 100);
+  text-decoration: none;
+  font-weight: bold;
+}
+.bContentWrapper .asideWrapper .recentPosts {
+  background-color: white;
+  margin-top: 30px;
+  padding: 30px;
+}
+.bContentWrapper .asideWrapper .recentPosts h4 {
+  margin: 0 0;
+}
+.bContentWrapper .asideWrapper .recentPosts ul {
+  list-style: none;
+  padding-left: 0px;
+  margin: 20px 0 0 0;
+}
+.bContentWrapper .asideWrapper .recentPosts ul li::before {
+  content: "•";
+  color: rgb(246, 168, 35);
+  padding: 5px 20px;
+}
+
 .contactHeader {
   height: 400px;
   background-image: url(../assets/contact-image-1.jpg);
@@ -741,6 +802,14 @@ button {
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;
+  line-height: 32px;
+  letter-spacing: 1px;
+}
+
+.recentPosts li {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  color: rgb(44, 44, 44);
   line-height: 32px;
   letter-spacing: 1px;
 }
