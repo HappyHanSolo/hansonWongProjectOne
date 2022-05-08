@@ -569,7 +569,7 @@ button {
   position: relative;
 }
 .blogHeader .headerWrapper {
-  width: 80vw;
+  width: 85vw;
   margin: 0 auto;
 }
 .blogHeader h1 {
@@ -585,7 +585,7 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  width: 80vw;
+  width: 85vw;
   margin: 100px auto;
 }
 .bContentWrapper .asideWrapper {
@@ -620,6 +620,92 @@ button {
   content: "•";
   color: rgb(246, 168, 35);
   padding: 5px 20px;
+}
+
+.bPostCommentWrapper {
+  margin-left: 20px;
+}
+.bPostCommentWrapper .blogPost {
+  background-color: white;
+  padding: 45px 45px 20px 45px;
+  border-bottom: 8px solid rgb(246, 168, 35);
+}
+.bPostCommentWrapper .blogPost h3 {
+  margin: 0 0;
+}
+.bPostCommentWrapper .blogPost p .date {
+  font-style: italic;
+  letter-spacing: 0;
+}
+.bPostCommentWrapper .blogPost p .person {
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(40, 94, 100);
+  letter-spacing: 0;
+}
+.bPostCommentWrapper .blogCommentSection {
+  margin: 40px 0;
+}
+.bPostCommentWrapper .blogCommentSection .commentOne, .bPostCommentWrapper .blogCommentSection .commentTwo {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 40px 20px 40px 30px;
+  margin-bottom: 25px;
+}
+.bPostCommentWrapper .blogCommentSection .commentOne img, .bPostCommentWrapper .blogCommentSection .commentTwo img {
+  width: 150px;
+  height: 100px;
+  margin-right: 25px;
+}
+.bPostCommentWrapper .blogCommentSection .commentOne h4, .bPostCommentWrapper .blogCommentSection .commentTwo h4 {
+  margin: 10px auto 0 auto;
+  font-size: 1rem;
+  font-style: italic;
+  color: rgb(40, 94, 100);
+  text-transform: capitalize;
+}
+.bPostCommentWrapper .blogCommentSection .commentOne p, .bPostCommentWrapper .blogCommentSection .commentTwo p {
+  margin: 10px 0 20px 0;
+  padding-right: 15px;
+}
+.bPostCommentWrapper .blogCommentSection .commentTwo {
+  border-bottom: 8px solid rgb(246, 168, 35);
+}
+
+.formWrapper {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.formWrapper .name {
+  width: 392.5px;
+  padding: 25px;
+  margin-right: 10px;
+  border: none;
+}
+.formWrapper .emailAddress {
+  width: 392.5px;
+  padding: 25px;
+  border: none;
+}
+.formWrapper .comment {
+  width: 800px;
+  padding: 40px 25px;
+  margin: 20px 0px;
+  border: none;
+  resize: none;
+}
+.formWrapper button {
+  width: 800px;
 }
 
 .contactHeader {

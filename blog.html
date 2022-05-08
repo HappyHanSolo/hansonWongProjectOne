@@ -42,36 +42,43 @@
                     </ul>
                 </aside>
             </div>
-            <div class="bContentCommentWrapper">
-                <section class="blogContent">
-                    <section class="blogPost">
-                        <h3>Why I became a Blogger</h3>
-                        <p><span class="date"> October 8th, 2018 by </span><span class="person">Sophie Barlow</span></p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt aliquam harum alias distinctio optio ullam, ipsam assumenda magnam deleniti inventore eos amet adipisci nisi cumque tempore, doloremque velit quidem eligendi.
-                        <br>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi nisi nobis consequatur impedit et? Vero sapiente dolores omnis? Est, id non illo asperiores saepe officia fugit ex magnam minus suscipit.
-                        <br>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt explicabo magni, consequatur tempora temporibus porro nihil mollitia officia voluptatem odit. Neque sint dolor deleniti nihil quos, amet distinctio, saepe odit assumenda esse velit fugiat sequi illum, suscipit fugit. Incidunt consectetur magnam molestiae aliquid asperiores neque.
-                        <br>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel repellat distinctio quia sit, quasi reiciendis.
-                        <br>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur repellat beatae officiis ab voluptas quod enim eius dolore recusandae maxime dolorum temporibus sint, possimus accusantium suscipit obcaecati deserunt! Necessitatibus, voluptatum.
-                        <br>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae dolor facere quas minima. Voluptatem perspiciatis vero totam quibusdam, labore vitae rerum nostrum officia? Ab fugit enim sunt, voluptas voluptate similique iure nesciunt ducimus reprehenderit alias ad, asperiores nobis quas provident aliquam hic possimus necessitatibus ipsum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut voluptatibus, suscipit quasi, facere distinctio praesentium porro nam quidem amet accusantium fugit maiores iure? Quis sequi vitae quisquam odit beatae? Quia?
-                        </p>
-                    </section>
+            <div class="bPostCommentWrapper">
+                <section class="blogPost">
+                    <h3>Why I became a Blogger</h3>
+                    <p><span class="date"> Monday October 8th, 2018 by </span><span class="person">Sophie Barlow</span></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt aliquam harum alias distinctio optio ullam, ipsam assumenda magnam deleniti inventore eos amet adipisci nisi cumque tempore, doloremque velit quidem eligendi.
+                    <br>    
+                    <br>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi nisi nobis consequatur impedit et? Vero sapiente dolores omnis? Est, id non illo asperiores saepe officia fugit ex magnam minus suscipit.
+                    <br>
+                    <br>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt explicabo magni, consequatur tempora temporibus porro nihil mollitia officia voluptatem odit. Neque sint dolor deleniti nihil quos, amet distinctio, saepe odit assumenda esse velit fugiat sequi illum, suscipit fugit. Incidunt consectetur magnam molestiae aliquid asperiores neque.
+                    <br>
+                    <br>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel repellat distinctio quia sit, quasi reiciendis.
+                    <br>
+                    <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur repellat beatae officiis ab voluptas quod enim eius dolore recusandae maxime dolorum temporibus sint, possimus accusantium suscipit obcaecati deserunt! Necessitatibus, voluptatum.
+                    <br>
+                    <br>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae dolor facere quas minima. Voluptatem perspiciatis vero totam quibusdam, labore vitae rerum nostrum officia? Ab fugit enim sunt, voluptas voluptate similique iure nesciunt ducimus reprehenderit alias ad, asperiores nobis quas provident aliquam hic possimus necessitatibus ipsum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut voluptatibus, suscipit quasi, facere distinctio praesentium porro nam quidem amet accusantium fugit maiores iure? Quis sequi vitae quisquam odit beatae? Quia?
+                    </p>
                 </section>
                 <section class="blogCommentSection">
                     <div class="bCommentWrapper">
                         <section class="commentOne">
                             <img src="./assets/blog-image-3.jpg" alt="Jeremy">
-                            <h4 class="commentHeading">Tuesday October 9th, 2018 by Jeremy</h4>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, illum nemo impedit ex maiores doloremque natus a ullam commodi labore sunt ad provident corrupti amet.</p>
+                            <div class="cInfoPost">
+                                <h4>Tuesday October 9th, 2018 by Jeremy</h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, illum nemo impedit ex maiores doloremque natus a ullam commodi labore sunt ad provident corrupti amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, exercitationem?</p>
+                            </div>
                         </section>
-                        <section class="commenetTwo">
+                        <section class="commentTwo">
                             <img src="./assets/blog-image-4.jpg" alt="Julia">
-                            <h4 class="commentHeading">Wednesday October 10th, 2018 by Julia</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt necessitatibus dolor quia autem nam nisi sequi adipisci, ab suscipit, provident officiis est omnis alias non.</p>
+                            <div class="cInfoPost">
+                                <h4>Wednesday October 10th, 2018 by Julia</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt necessitatibus dolor quia autem nam nisi sequi adipisci, ab suscipit, provident officiis est omnis alias non.</p>
+                            </div>
                         </section>
                     </div>
                 </section>
@@ -79,13 +86,13 @@
                     <div class="formWrapper">
                         <form action="" method="post" class="postCommentForm" id="commentForm">
                             <label for="name" class="sr-only"></label>
-                            <input type="text" id="name" placeholder="Name">
+                            <input class="name" type="text" id="name" placeholder="Name">
                             
                             <label for="emailAddress" class="sr-only"></label>
-                            <input type="text" id="emailAddress" placeholder="Email Address">
+                            <input class="emailAddress" type="text" id="emailAddress" placeholder="Email Address">
                             
                             <label for="comment" class="sr-only"></label>
-                            <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Comment"></textarea>
+                            <textarea class= "comment" name="comment" id="comment" cols="30" rows="10" placeholder="Comment"></textarea>
                             
                             <button>Post Comment</button>
                         </form>
