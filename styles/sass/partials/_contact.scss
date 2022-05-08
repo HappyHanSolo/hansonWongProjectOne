@@ -16,10 +16,9 @@ main {
     background-color: rgb(240 239 237);
     .mainWrapper {
         width: 80vw;
-        margin: 0 auto;
+        margin: 60px auto 100px auto;
         display: flex;
         flex-direction: row;
-        margin-top: 60px;
         .asideWrapper {
             padding: 20px 0 20px 30px;
             background-color: white;
@@ -40,12 +39,38 @@ main {
                 width: 350px;
                 .contactEmail {
                     margin: 0;
+                    font-weight: bold;
                 }
                 .contactAddress {
                     margin: 10px 0 20px;
                 }
-                
-                 }
+                }
+            }
+            .formWrapper{
+                margin-top: 30px;
+                display: flex;
+                flex-wrap: wrap;
+                .name {
+                    width: 392.5px;
+                    padding: 25px;
+                    margin-right: 10px;
+                    border: none;
+                }
+                .emailAddress {
+                    width: 392.5px;
+                    padding: 25px;
+                    border: none;
+                }
+                .message {
+                    width: 800px;
+                    padding: 40px 25px;
+                    margin: 20px 0px;
+                    border: none;
+                    resize: none;
+                }
+                button {
+                    width: 800px;
+                }
             }
         }
 

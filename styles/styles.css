@@ -588,7 +588,7 @@ main {
 }
 main .mainWrapper {
   width: 80vw;
-  margin: 0 auto;
+  margin: 60px auto 100px auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -596,7 +596,6 @@ main .mainWrapper {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin-top: 60px;
 }
 main .mainWrapper .asideWrapper {
   padding: 20px 0 20px 30px;
@@ -625,9 +624,39 @@ main .mainWrapper .asideWrapper .contactInfoWrapper {
 }
 main .mainWrapper .asideWrapper .contactInfoWrapper .contactEmail {
   margin: 0;
+  font-weight: bold;
 }
 main .mainWrapper .asideWrapper .contactInfoWrapper .contactAddress {
   margin: 10px 0 20px;
+}
+main .mainWrapper .formWrapper {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+main .mainWrapper .formWrapper .name {
+  width: 392.5px;
+  padding: 25px;
+  margin-right: 10px;
+  border: none;
+}
+main .mainWrapper .formWrapper .emailAddress {
+  width: 392.5px;
+  padding: 25px;
+  border: none;
+}
+main .mainWrapper .formWrapper .message {
+  width: 800px;
+  padding: 40px 25px;
+  margin: 20px 0px;
+  border: none;
+  resize: none;
+}
+main .mainWrapper .formWrapper button {
+  width: 800px;
 }
 main .formWrapper {
   display: -webkit-box;
@@ -698,6 +727,12 @@ p {
   color: rgb(44, 44, 44);
   line-height: 32px;
   letter-spacing: 1px;
+}
+
+form input, form textarea {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-style: italic;
 }
 
 button {

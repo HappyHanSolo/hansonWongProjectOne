@@ -56,6 +56,11 @@ p {
     line-height: 32px;
     letter-spacing: 1px;
 }
+form input, form textarea {
+    font-family: $primaryFont;
+    font-size: 1rem;
+    font-style: italic;
+} 
 
 button {
     font-family: $primaryFont;
