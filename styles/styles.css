@@ -933,13 +933,18 @@ footer p {
 }
 
 @media (max-width: 320px) {
-  .headerTextWrapper h1 {
+  .indexHeader .headerTextWrapper h1 {
     font-size: 3rem;
     left: 70px;
   }
-  .headerTextWrapper img {
+  .indexHeader .headerTextWrapper img {
     width: 100px;
     top: 80px;
     left: 40px;
+  }
+  .indexHeader .headerImageWrapper img {
+    width: 250px;
+    left: 35px;
+    bottom: -20px;
   }
 }
