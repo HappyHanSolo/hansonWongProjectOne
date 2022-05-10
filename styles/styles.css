@@ -261,6 +261,10 @@ template {
 }
 .navWrapper ul li a {
   text-decoration: none;
+  color: inherit;
+}
+.navWrapper ul li .activePage {
+  color: white;
 }
 
 button {
@@ -273,6 +277,9 @@ button {
 
 .navBar .navWrapper .home {
   color: white;
+}
+.navBar .navWrapper .contact {
+  color: inherit;
 }
 
 .indexHeader {
@@ -712,6 +719,13 @@ button {
   font-weight: bold;
 }
 
+.navBar .navWrapper .home {
+  color: inherit;
+}
+.navBar .navWrapper .contact {
+  color: white;
+}
+
 .contactHeader {
   height: 400px;
   background-image: url(../assets/contact-image-1.jpg);
@@ -916,4 +930,16 @@ footer {
 footer p {
   color: rgb(240, 239, 237);
   margin: 5px;
+}
+
+@media (max-width: 320px) {
+  .headerTextWrapper h1 {
+    font-size: 3rem;
+    left: 70px;
+  }
+  .headerTextWrapper img {
+    width: 100px;
+    top: 80px;
+    left: 40px;
+  }
 }

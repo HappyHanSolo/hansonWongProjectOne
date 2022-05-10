@@ -16,10 +16,15 @@
             padding: 10px;
             a {
                 text-decoration: none;
+                color: inherit;
+            }
+            .activePage {
+                color:white;
             }
         }
     }
 }
+
 
 button {
     background-color: rgb(5, 175, 193);
