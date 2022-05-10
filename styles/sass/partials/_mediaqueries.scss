@@ -32,4 +32,34 @@
             }
         }
     }
+    .mainPageContent{
+        .sFavContent {
+            flex-direction: column;
+            .sFavImgWrapper{
+                width: 80vw;
+                height: 155px;
+                img {
+                    position: absolute;
+                    width: 250px;
+                    height: auto;
+                    top: -10px;
+                    left: 15px;
+                }
+            }
+            .sFavTextWrapper{
+                width: 80vw;
+                h3{
+                    margin: 0 auto;
+                }
+            }
+            }
+        .sTravelled {
+            flex-direction: column;
+            .sTravTextWrapper{
+                width: 80vw;
+                
+            }
+        }
+        
+    }
 }

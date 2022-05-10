@@ -344,7 +344,7 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 1080px;
+  width: 80vw;
   margin: 50px auto;
 }
 .mainPageContent .whoSophieContainer .whoSophie h2 {
@@ -352,7 +352,7 @@ button {
 }
 .mainPageContent .whoSophieContainer .whoSophie p {
   margin: 30px 0 30px;
-  width: 1000px;
+  width: 80vw;
 }
 .mainPageContent .sFavContent {
   display: -webkit-box;
@@ -946,5 +946,38 @@ footer p {
     width: 250px;
     left: 35px;
     bottom: -20px;
+  }
+
+  .mainPageContent .sFavContent {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .mainPageContent .sFavContent .sFavImgWrapper {
+    width: 80vw;
+    height: 155px;
+  }
+  .mainPageContent .sFavContent .sFavImgWrapper img {
+    position: absolute;
+    width: 250px;
+    height: auto;
+    top: -10px;
+    left: 15px;
+  }
+  .mainPageContent .sFavContent .sFavTextWrapper {
+    width: 80vw;
+  }
+  .mainPageContent .sFavContent .sFavTextWrapper h3 {
+    margin: 0 auto;
+  }
+  .mainPageContent .sTravelled {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .mainPageContent .sTravelled .sTravTextWrapper {
+    width: 80vw;
   }
 }
