@@ -39,7 +39,6 @@
                 width: 80vw;
                 height: 155px;
                 img {
-                    position: absolute;
                     width: 250px;
                     height: auto;
                     top: -10px;
@@ -57,7 +56,19 @@
             flex-direction: column;
             .sTravTextWrapper{
                 width: 80vw;
-                
+                height: auto;
+                button {
+                    bottom: -35px;
+                }
+            }
+            .sTravImgWrapper{
+                width: 80vw;
+                height: 155px;
+                bottom: -35px;
+                img{
+                    width: 250px;
+                    height: auto;
+                }
             }
         }
         

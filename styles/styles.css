@@ -959,7 +959,6 @@ footer p {
     height: 155px;
   }
   .mainPageContent .sFavContent .sFavImgWrapper img {
-    position: absolute;
     width: 250px;
     height: auto;
     top: -10px;
@@ -979,5 +978,18 @@ footer p {
   }
   .mainPageContent .sTravelled .sTravTextWrapper {
     width: 80vw;
+    height: auto;
+  }
+  .mainPageContent .sTravelled .sTravTextWrapper button {
+    bottom: -35px;
+  }
+  .mainPageContent .sTravelled .sTravImgWrapper {
+    width: 80vw;
+    height: 155px;
+    bottom: -35px;
+  }
+  .mainPageContent .sTravelled .sTravImgWrapper img {
+    width: 250px;
+    height: auto;
   }
 }
