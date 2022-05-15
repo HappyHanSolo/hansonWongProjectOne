@@ -1,16 +1,23 @@
-// query find out more button 
-
 const findMoreButton = document.querySelector('.iFindMoreButton')
-// when clicked, button disappears meme appears 
 
 function memeClick (event) {
-    //console.log("i've been clicked");
     this.style.display = 'none';
     const trollImgDiv = document.querySelector('.trollImg')
 
-    trollImgDiv.innerHTML = `<img src="https://i.imgflip.com/6g9cjn.jpg">`;
+    trollImgDiv.innerHTML = `<img class="jackieWhy" src="https://i.imgflip.com/6g9cjn.jpg">`;
 }
-// listen for click
 
 findMoreButton.addEventListener('click', memeClick);
+
+const findElmo = document.querySelector('.byeByeHome')
+
+function elmoHellFire (event) {
+    this.style.display = 'none';
+    const elmoArrives = document.querySelector('.surpriseElmo')
+
+    elmoArrives.innerHTML = `<img src="https://i.imgflip.com/6g9gcd.jpg">`;
+}
+
+findElmo.addEventListener('click', elmoHellFire);
+
 
