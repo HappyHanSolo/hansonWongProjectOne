@@ -354,7 +354,11 @@ button {
   margin: 30px 0 30px;
   width: 80vw;
 }
-.mainPageContent .sFavContent {
+.mainPageContent .whoSophieContainer .whoSophie div.trollImg img.jackieWhy {
+  width: 250px;
+}
+
+.sFavContent {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -364,14 +368,14 @@ button {
           flex-direction: row;
   padding-bottom: 30px;
 }
-.mainPageContent .sFavContent .sFavImgWrapper {
+.sFavContent .sFavImgWrapper {
   width: 50vw;
   position: relative;
   height: 410px;
   margin-top: -25px;
   background-color: rgb(168, 39, 6);
 }
-.mainPageContent .sFavContent .sFavImgWrapper img {
+.sFavContent .sFavImgWrapper img {
   width: 575px;
   height: 400px;
   position: absolute;
@@ -380,11 +384,12 @@ button {
   -o-object-fit: cover;
      object-fit: cover;
 }
-.mainPageContent .sFavContent .sFavTextWrapper {
+.sFavContent .sFavTextWrapper {
   width: 500px;
   margin: 50px auto;
 }
-.mainPageContent .sTravelled {
+
+.sTravelled {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -394,7 +399,7 @@ button {
           flex-direction: row;
   padding-bottom: 15px;
 }
-.mainPageContent .sTravelled .sTravTextWrapper {
+.sTravelled .sTravTextWrapper {
   width: 500px;
   -webkit-box-pack: right;
       -ms-flex-pack: right;
@@ -410,26 +415,26 @@ button {
   position: relative;
   height: 300px;
 }
-.mainPageContent .sTravelled .sTravTextWrapper h3 {
+.sTravelled .sTravTextWrapper h3 {
   margin: 0;
   text-align: end;
 }
-.mainPageContent .sTravelled .sTravTextWrapper p {
+.sTravelled .sTravTextWrapper p {
   text-align: end;
 }
-.mainPageContent .sTravelled .sTravTextWrapper button {
+.sTravelled .sTravTextWrapper button {
   position: absolute;
   bottom: 10px;
   right: 0;
 }
-.mainPageContent .sTravelled .sTravImgWrapper {
+.sTravelled .sTravImgWrapper {
   width: 50vw;
   position: relative;
   height: 375px;
   margin-top: 20px;
   background-color: rgb(246, 168, 35);
 }
-.mainPageContent .sTravelled .sTravImgWrapper img {
+.sTravelled .sTravImgWrapper img {
   width: 600px;
   height: 450px;
   position: absolute;
@@ -438,11 +443,12 @@ button {
   -o-object-fit: contain;
      object-fit: contain;
 }
-.mainPageContent .miniMenu {
+
+.miniMenu {
   background-color: rgb(240, 239, 237);
   margin-top: -60px;
 }
-.mainPageContent .miniMenu .mMenuWrapper {
+.miniMenu .mMenuWrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -454,83 +460,85 @@ button {
   width: 90vw;
   margin: 0 auto;
 }
-.mainPageContent .miniMenu .mMenuWrapper .mMenuPhoto {
+.miniMenu .mMenuWrapper .mMenuPhoto {
   position: relative;
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
   padding: 25px;
   margin-top: 100px;
 }
-.mainPageContent .miniMenu .mMenuWrapper .mMenuPhoto h4 {
+.miniMenu .mMenuWrapper .mMenuPhoto h4 {
   padding-left: 50px;
   margin-bottom: 0px;
 }
-.mainPageContent .miniMenu .mMenuWrapper .mMenuPhoto p {
+.miniMenu .mMenuWrapper .mMenuPhoto p {
   padding-left: 50px;
 }
-.mainPageContent .miniMenu .mMenuWrapper .mMenuAbout {
+.miniMenu .mMenuWrapper .mMenuAbout {
   position: relative;
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
   padding: 25px;
   margin-top: 100px;
 }
-.mainPageContent .miniMenu .mMenuWrapper .mMenuAbout h4 {
+.miniMenu .mMenuWrapper .mMenuAbout h4 {
   padding-left: 50px;
   margin-bottom: 0px;
 }
-.mainPageContent .miniMenu .mMenuWrapper .mMenuAbout p {
+.miniMenu .mMenuWrapper .mMenuAbout p {
   padding-left: 50px;
 }
-.mainPageContent .miniMenu .mMenuWrapper .mMenuBlog {
+.miniMenu .mMenuWrapper .mMenuBlog {
   position: relative;
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
   padding: 25px;
   margin-bottom: 50px;
 }
-.mainPageContent .miniMenu .mMenuWrapper .mMenuBlog h4 {
+.miniMenu .mMenuWrapper .mMenuBlog h4 {
   padding-left: 50px;
   margin-bottom: 0px;
 }
-.mainPageContent .miniMenu .mMenuWrapper .mMenuBlog p {
+.miniMenu .mMenuWrapper .mMenuBlog p {
   padding-left: 50px;
 }
-.mainPageContent .miniMenu .mMenuWrapper .mMenuContact {
+.miniMenu .mMenuWrapper .mMenuContact {
   position: relative;
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
   padding: 25px;
   margin-bottom: 50px;
 }
-.mainPageContent .miniMenu .mMenuWrapper .mMenuContact h4 {
+.miniMenu .mMenuWrapper .mMenuContact h4 {
   padding-left: 50px;
   margin-bottom: 0px;
 }
-.mainPageContent .miniMenu .mMenuWrapper .mMenuContact p {
+.miniMenu .mMenuWrapper .mMenuContact p {
   padding-left: 50px;
 }
-.mainPageContent .miniMenu .mMenuWrapper i {
+.miniMenu .mMenuWrapper i {
   background-color: rgb(246, 168, 35);
   padding: 10px;
   border-radius: 50%;
   position: absolute;
   top: 50px;
 }
-.mainPageContent .breakerBackgroundImg img {
+
+.breakerBackgroundImg img {
   width: 100%;
   height: 405px;
   -o-object-fit: fill;
      object-fit: fill;
 }
-.mainPageContent .sJourney {
+
+.sJourney {
   background-color: rgb(240, 239, 237);
   margin: -10px;
   width: calc(100vw - 20px);
   padding-top: 90px;
   padding-bottom: 75px;
 }
-.mainPageContent .sJourney .sJourneyWrapper {
+.sJourney .sJourneyWrapper {
   width: 90vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -541,19 +549,20 @@ button {
           flex-direction: row;
   margin: 0 auto;
 }
-.mainPageContent .sJourney .sJourneyWrapper img {
+.sJourney .sJourneyWrapper img {
   width: 285px;
   margin: 0 100px;
   -webkit-box-shadow: 15px 15px rgb(246, 168, 35);
           box-shadow: 15px 15px rgb(246, 168, 35);
 }
-.mainPageContent .sJourney .sJourneyWrapper h2 {
+.sJourney .sJourneyWrapper h2 {
   margin: 0;
 }
-.mainPageContent .sJourney .sJourneyWrapper p {
+.sJourney .sJourneyWrapper p {
   margin-right: 50px;
 }
-.mainPageContent .gallery .galleryWrapper ul {
+
+.gallery .galleryWrapper ul {
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -566,10 +575,15 @@ button {
   margin: 80px 60px;
   padding: 0;
 }
-.mainPageContent .gallery .galleryWrapper ul li {
+.gallery .galleryWrapper ul li {
   -ms-flex-preferred-size: 30%;
       flex-basis: 30%;
   margin: 10px;
+}
+.gallery .galleryWrapper ul li #helloElmo {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  width: 400px;
 }
 
 .blogHeader {

@@ -12,10 +12,7 @@ findMoreButton.addEventListener('click', memeClick);
 const findElmo = document.querySelector('.byeByeHome')
 
 function elmoHellFire (event) {
-    this.style.display = 'none';
-    const elmoArrives = document.querySelector('.surpriseElmo')
-
-    elmoArrives.innerHTML = `<img src="https://i.imgflip.com/6g9gcd.jpg">`;
+    document.getElementById("helloElmo").src="https://i.imgflip.com/6g9gcd.jpg";
 }
 
 findElmo.addEventListener('click', elmoHellFire);
